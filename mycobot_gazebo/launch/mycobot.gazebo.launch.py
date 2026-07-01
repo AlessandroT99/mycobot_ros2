@@ -229,7 +229,7 @@ def generate_launch_description():
         package='ros_gz_sim',
         executable='create',
         output='screen',
-        arguments=[LaunchConfi
+        arguments=[
             '-topic', '/robot_description',
             '-name', robot_name,
             '-allow_renaming', 'true',
